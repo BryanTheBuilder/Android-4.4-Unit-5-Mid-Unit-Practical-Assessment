@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">Android 4.4 Unit 5 Mid-Unit Practical Assessment</string>
+  <string name="title_activity_detail">DetailActivity</string>
 </resources>
