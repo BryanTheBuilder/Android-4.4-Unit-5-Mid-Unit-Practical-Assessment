@@ -41,4 +41,9 @@ public class RandomPersonAdapter extends RecyclerView.Adapter<RandomPersonViewHo
   public int getItemCount() {
     return results.size();
   }
+
+  public void addNewStatutes(List<Results> getresults) {
+    this.results.addAll(getresults);
+    notifyDataSetChanged();
+  }
 }

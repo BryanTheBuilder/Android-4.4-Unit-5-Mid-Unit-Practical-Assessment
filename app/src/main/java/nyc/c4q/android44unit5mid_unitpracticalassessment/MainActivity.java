@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
             randomPersonAdapter = new RandomPersonAdapter(getresults, getApplicationContext());
             randomPersonAdapter.notifyDataSetChanged();
             recyclerView.setAdapter(randomPersonAdapter);
+           randomPersonAdapter.addNewStatutes(getresults);
+
             randomPersonAdapter.notifyDataSetChanged();
             Log.d(TAG, "adapter SET");
             recyclerView.setLayoutManager(gridLayoutManager);
